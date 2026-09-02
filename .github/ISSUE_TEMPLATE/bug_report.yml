@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a reproducible problem in Kodo
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Kodo. Search existing issues first and remove all secrets, private code and personal data before submitting.
+  - type: input
+    id: version
+    attributes:
+      label: Kodo version
+      placeholder: "For example: 3.4"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS
+      placeholder: "For example: iPad Pro 13-inch (M4), iPadOS 26.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Editor or workspace
+        - Local AI or model loading
+        - AI autocomplete or agent
+        - SSH terminal
+        - SFTP or FTP
+        - GitHub
+        - SQLite, CSV or TSV
+        - Preview or formatting
+        - Localization or accessibility
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable sequence that triggers the problem.
+      placeholder: |
+        1. Open…
+        2. Tap…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add redacted screenshots or logs only when useful. Never include credentials, tokens, server addresses or confidential source code.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, private keys, tokens, personal data, server details and private source code.
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: https://www.ttstudio.net/en/support.html
+    about: Use email when a request cannot be discussed publicly.
+  - name: Security report
+    url: https://www.ttstudio.net/security-policy.html
+    about: Report suspected vulnerabilities privately, never in a public issue.
+  - name: Official Kodo website
+    url: https://www.ttstudio.net/en/kodo.html
+    about: Product information, App Store link, press kit and changelog.

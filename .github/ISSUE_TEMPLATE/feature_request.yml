@@ -1,0 +1,54 @@
+name: Feature request
+description: Propose an improvement for a real mobile-development workflow
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Strong requests explain the workflow and constraint, not only a proposed button or implementation.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What are you trying to accomplish on iPhone or iPad?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current problem
+      description: What blocks, slows down or makes the workflow unreliable today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the behavior you would find useful.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention any current Kodo, iOS or remote-development workaround.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Frequency
+      options:
+        - Every day
+        - Several times a week
+        - Occasionally
+        - One specific project
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This request contains no credentials, tokens, private server details or confidential source code.
+          required: true
