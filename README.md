@@ -2,9 +2,9 @@
 
 [![Kodo — private AI code editor for iPhone and iPad](https://www.ttstudio.net/assets/kodo/kodo-og.png)](https://www.ttstudio.net/en/kodo.html)
 
-**A private mobile coding workspace for iPhone and iPad, with on-device AI and a real SSH terminal.**
+**A code editor for iPhone and iPad, with on-device AI and SSH.**
 
-[Download on the App Store](https://apps.apple.com/app/id6781042920) · [Product page](https://www.ttstudio.net/en/kodo.html) · [Press kit](https://www.ttstudio.net/en/kodo-press.html) · [Changelog](https://www.ttstudio.net/en/kodo-changelog.html)
+[Download on the App Store](https://apps.apple.com/app/id6781042920) · [Product page](https://www.ttstudio.net/en/kodo.html) · [Information & resources](https://www.ttstudio.net/en/kodo-press.html) · [Changelog](https://www.ttstudio.net/en/kodo-changelog.html)
 
 > This is Kodo's public documentation, support and issue-tracking repository. The Kodo application source code is proprietary and is not published here.
 
