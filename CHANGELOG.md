@@ -1,20 +1,26 @@
-# Kodo changelog
+# Kodo Editor changelog
 
-The complete, maintained release history is available on the [official Kodo changelog](https://www.ttstudio.net/en/kodo-changelog.html).
+The App Store listing is authoritative for the version currently available in each region. [Download or update Kodo](https://www.kodoeditor.com/download/).
 
-## 3.4 — Current public release
+## 3.5 — Current public release
 
-Highlights include:
+- Organize projects with documentation, version snapshots and six web templates.
+- Review AI changes across multiple files before applying them, with recovery for interrupted edits.
+- Work with clearer CSV tables and improved SQLite tools.
+- Manage remote SSH, npm and Python jobs, and connect to PostgreSQL databases.
+- Fixes for opening files, editor layout and unsaved changes on iPhone and iPad.
 
-- on-device Qwen AI through `llama.cpp`
-- inline AI autocomplete
-- AI agent edits with diff review
-- interactive SSH terminal
-- SFTP, FTP and GitHub workflows
-- SQLite playground with schema-aware queries
-- CSV and TSV editing
-- formatter and Emmet support
-- reusable workspaces and restored tabs
-- 150+ syntax profiles
+## 3.4
 
-App Store availability can vary by region and rollout timing. The App Store version is the authoritative installed version.
+- On-device Qwen AI through `llama.cpp`.
+- Inline AI autocomplete.
+- AI agent edits with diff review.
+- Interactive SSH terminal.
+- SFTP, FTP and GitHub workflows.
+- SQLite playground with schema-aware queries.
+- CSV and TSV editing.
+- Formatter and Emmet support.
+- Reusable workspaces and restored tabs.
+- More than 150 syntax profiles.
+
+App Store availability can vary by region and rollout timing.
