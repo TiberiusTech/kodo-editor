@@ -1,54 +1,63 @@
-# Kodo
+# Kodo Editor
 
-[![Kodo — private AI code editor for iPhone and iPad](https://www.ttstudio.net/assets/kodo/kodo-og.png)](https://www.ttstudio.net/en/kodo.html)
+**A private, offline AI code editor and mobile IDE for iPhone and iPad.**
 
-**A code editor for iPhone and iPad, with on-device AI and SSH.**
+Kodo brings code editing, on-device AI, an interactive SSH terminal, remote files, GitHub workflows and data tools into one native workspace. Download a compatible Qwen model once and use AI assistance without sending source code to a cloud AI service.
 
-[Download on the App Store](https://apps.apple.com/app/id6781042920) · [Product page](https://www.ttstudio.net/en/kodo.html) · [Information & resources](https://www.ttstudio.net/en/kodo-press.html) · [Changelog](https://www.ttstudio.net/en/kodo-changelog.html)
+[Official website](https://www.kodoeditor.com/) · [Download Kodo](https://www.kodoeditor.com/download/) · [Getting-started guide](https://www.kodoeditor.com/guide/) · [Browser playground](https://www.kodoeditor.com/playground/) · [Free templates](https://www.kodoeditor.com/templates/)
 
-> This is Kodo's public documentation, support and issue-tracking repository. The Kodo application source code is proprietary and is not published here.
+> This is Kodo's official public documentation, support and issue-tracking repository. The Kodo application source code is proprietary and is not published here.
 
-## Why Kodo
+## Code on iPhone and iPad
 
-Kodo is built for developers who want useful coding tools on iPhone or iPad without sending source code to a cloud AI service. It combines a native editor, downloadable Qwen models running through `llama.cpp`, remote-development tools and practical offline utilities in one app.
+Kodo is designed for developers who want a useful mobile coding workspace without depending on a cloud AI service. Edit local projects, preview browser code, work with local data or connect to your own development machine and servers.
 
 | Capability | What Kodo provides |
 | --- | --- |
-| Private AI | On-device Qwen inference after a model is downloaded |
-| AI editing | Inline autocomplete, chat and an agent workflow with diff review |
+| Offline AI | On-device Qwen inference through `llama.cpp` after a model is downloaded |
+| AI editing | Inline autocomplete, chat and agent edits with reviewable diffs |
 | Remote development | Interactive SSH terminal plus SFTP and FTP file access |
-| GitHub workflows | Clone, update and push repositories from the app |
-| Data tools | SQLite playground and CSV/TSV editing |
-| Editor | 150+ syntax profiles, formatter support, Emmet and web preview |
+| GitHub workflows | Clone repositories, update local clones and push files |
+| Data tools | SQLite and PostgreSQL workflows plus CSV/TSV editing |
+| Web development | HTML, CSS and JavaScript editing with Emmet, formatting and live preview |
+| Editor | Tabs, version snapshots, reusable snippets and 150+ syntax profiles |
 | Privacy | No Kodo account, no cloud AI and no tracking |
 
 ## A practical iPad workflow
 
-1. Open or create a local workspace.
+1. Open a local project or start from a [free Kodo template](https://www.kodoeditor.com/templates/).
 2. Edit with syntax highlighting, snippets, formatting and optional on-device AI.
-3. Review AI-generated changes before applying larger edits.
-4. Preview HTML or Markdown locally.
+3. Review AI-generated changes before applying larger or multi-file edits.
+4. Preview HTML, CSS, JavaScript or Markdown locally.
 5. Connect over SSH when the project needs a server, compiler or full runtime.
+6. Use SFTP, GitHub or database tools when the workflow requires a network.
 
-## Privacy model
+## Local AI and privacy
 
 - AI prompts and source code are processed on the device by the selected local model.
+- Downloaded models can work offline.
 - Server credentials are stored in Apple Keychain.
-- Network access is used only for actions that inherently require it, such as downloading a model, using GitHub or connecting to a remote server.
+- Network access is used only for actions that require it, such as downloading a model, using GitHub or connecting to a remote server.
 - Apple currently lists Kodo as collecting no data.
 
-Read [how local AI and network access work](docs/AI-AND-PRIVACY.md).
+Read [how local AI and network access work](docs/AI-AND-PRIVACY.md) and the [official privacy page](https://www.kodoeditor.com/privacy/).
 
 ## Important limits
 
 Kodo is a mobile coding workspace, not a full local replacement for Xcode or a desktop IDE.
 
 - It does not locally execute or compile Python, PHP, Swift or other general-purpose runtimes.
-- HTML and Markdown can be previewed locally.
-- A remote machine or server can provide the runtime, compiler and services for larger projects.
-- Performance and available model sizes depend on the device's memory and storage.
+- HTML, CSS, JavaScript and Markdown can be previewed locally.
+- A remote machine or server can provide runtimes, compilers and services for larger projects.
+- Performance and available AI model sizes depend on the device's memory, storage and thermal conditions.
 
-See the [FAQ](docs/FAQ.md) and [remote-development guide](docs/REMOTE-DEVELOPMENT.md).
+See the [FAQ](docs/FAQ.md), [remote-development guide](docs/REMOTE-DEVELOPMENT.md) and [official getting-started guide](https://www.kodoeditor.com/guide/).
+
+## Download
+
+Kodo is currently free, with no Kodo account or subscription required. It requires iOS or iPadOS 18 or later.
+
+[Download Kodo from the App Store](https://apps.apple.com/app/id6781042920)
 
 ## Feedback and support
 
