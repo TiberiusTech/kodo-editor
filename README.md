@@ -1,7 +1,7 @@
 # Kodo Editor
 
 <p align="center">
-  <img src="docs/images/kodo-github-banner.jpg" alt="Kodo — Offline AI Code Editor for iPhone and iPad" width="100%">
+  <img src="docs/images/kodo-github-banner.png" alt="Kodo — Offline AI Code Editor for iPhone and iPad" width="100%">
 </p>
 
 <p align="center">
